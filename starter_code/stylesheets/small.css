@@ -1,0 +1,319 @@
+@media (min-width:780px) and ( max-width: 1024px) {
+  body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-button {
+    background: transparent;
+    border: none;
+    width: 50px;
+    height: 50px;
+  }
+  ul.navigation {
+    display: flex;}
+    button img#menu-icon {
+      display: block;
+      height: 20px;
+      width: auto;
+    }
+    .hidden {
+      display: none;
+    }
+    button img#menu-icon {
+      display: block;
+      height: 20px;
+      width: auto;
+    }
+    #nav-icons {
+      display: flex;
+    }
+    ul.navigation {
+      display: none;
+    }
+    img{
+      max-width: 150%;
+      
+   
+    }
+    header h1 {
+      font-size: 66px;
+      color:white;
+      margin-bottom: 10px;
+      
+    }
+    .hero{
+      max-width: 500px;
+      margin-bottom: 40px;
+      display: flex;
+      max-width: 100%; 
+    }
+   
+    .hero img{
+      max-width: 120%;
+    }
+    header{
+      display: flex;
+    }
+      header p {
+        
+        font-size: 22px;
+        color: white;
+        margin-bottom: 15px;
+      }
+      #orange-text{
+    color:#ECB12F;
+      }
+    
+      header button {
+        width: 100%; /* Make buttons full-width */
+        margin: 10px 0;
+        height: 50px;
+        color: #540B51;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+      }
+      h2{
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+      }
+      .text-align{
+        text-align: left;
+      }
+      .white-background{
+        background-color: #fff;
+        
+      }
+    .white-background p {
+     
+      align-items: center;
+      font-size: 16px;
+    }
+    .white-background h3{
+      margin-bottom: 20px;
+      max-width: 280px;
+      text-align: center;
+      max-width: 50%;
+      font-size: 20px;
+    }
+    .links{
+      color: #4285F4;
+      text-decoration: none;
+    }
+    .container {
+      margin-bottom: 30px;
+    }
+    .container img{
+      margin-bottom: 30px;
+    }
+    main section {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    main div button {
+      width: 100%; /* Make buttons full-width */
+      margin: 10px 0;
+      height: 60px;
+      font-size:16px;
+      font-weight: bold;
+    }
+  main section p{
+    font-size:26px;
+    margin-bottom: 40px;
+  }
+    /* List Section */
+    main section ul {
+      flex-direction: column;
+      list-style: none;
+      
+    }
+    .white-background li p span{
+      color: #540B51;
+      font-size: 26px;
+      font-weight: bold;
+    }
+    .white-background li p{
+      font-weight: bold;
+      font-size: 16px;
+    }
+  .main-logo{
+  
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  .main-logo img{
+    max-width:100%;
+    width:33.33%;
+    height: 80px;
+  }
+  .hero{
+display: flex;
+
+  }
+  .purple-background h3{
+    color: white;
+  }
+  .purple-background h1{
+    text-align: left;
+  }
+  #blue-button button {
+    background-color: #4285F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+    main section li {
+      text-align: center;
+      width: 100%; /* Make list items full-width */
+    }
+    main {
+      background-color:beige;
+    }
+    main section p {
+      text-align: center;
+    }
+    .main-logo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    
+    .main-logo img {
+      max-width: 100%;
+      width: 33.33%;
+      height: 60px;
+      width: 120px;
+    }
+    /* Logo Images */
+    main img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 50px;
+    }
+ .container{
+  margin-top: 50px;
+  margin-left : 150px;
+  max-width: 70%;
+ }
+ .contain img{
+  height: 500px;
+  width: 650px;
+  
+ }
+ #right-img{
+margin-left: 290px;
+
+ }
+
+.white-background h3{
+  color: black;
+  text-align: center;
+  margin-left: 220px;
+}
+/*///////////////////////////////////////////////////////////////////////////////*/
+
+
+#team-slack-align {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  
+}
+
+.text-container {
+  margin-bottom: 20px; /* Adjust the spacing between header and buttons */
+}
+
+#two-btns{
+  display: flex;
+  max-width: 70%;
+  margin-left: 140px;
+  margin-bottom: 50px;
+}
+/*/////////////////////////////////////////////////////////////////////////*/
+  
+    /* Buttons in the "Teams large and small rely on Slack" Section */
+    main section button {
+      width: 100%; /* Make buttons full-width */
+      margin: 10px 0;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+  
+
+  .purple-button{
+    background-color: #540B51;
+    color: #fff;
+    border: solid 2px;
+    height: 60px;
+   font-weight: bold;
+  }
+  .white-button{
+   border:2px solid #540B51;
+   background-color: #fff;
+   height: 60px;
+   color: #540B51;
+   font-weight: bold;
+    
+  }
+  .white-background ul {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+  }
+  .white-background ul li {
+    width: 150px
+  }
+  #small-screen{
+    text-align: center;
+  }
+    
+    /* Footer Styles */
+    footer {
+      padding: 20px;
+    }
+  .footer-list{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  
+  }
+  .footer-list li{
+    list-style: none;
+  }
+  footer{
+    background-color: #fff;
+  }
+  #footer-ul{
+    display: flex;
+    justify-content: space-between;
+  }
+  #footer-ul li{
+  list-style:none;
+  font-weight: bold;
+  }
+  #blue-text{
+    color: #4285F4;
+  }
+  #footer-logo{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  #footer-logo li{
+  list-style: none;
+  }
+  }
+  

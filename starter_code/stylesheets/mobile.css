@@ -1,0 +1,286 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F3EAE2;
+  color: #000000;
+}
+#logo-slack{
+  margin-left :0;
+  padding:0;
+  text-align: left;
+}
+
+/* Header Styles */
+header {
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 66px;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+header p {
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+#orange-text {
+  color: #ECB12F;
+}
+
+header button {
+  width: 100%;
+  margin: 10px 0;
+  height: 50px;
+  color: #540B51;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #540B51;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav img {
+  height: 40px;
+  width: auto;
+}
+
+button img {
+  height: 20px;
+  width: auto;
+  border: none;
+  cursor: pointer;
+}
+
+/* Mobile View Styles */
+@media (max-width: 768px) {
+  /* Navigation Bar */
+  .nav-button {
+    background: transparent;
+    border: none;
+    width: 50px;
+    height: 50px;
+  }
+
+  img {
+    max-width: 110%;
+  }
+
+  nav img {
+    max-width: 50%;
+    height: auto;
+  }
+
+  button img#menu-icon {
+    display: block;
+    height: 20px;
+    width: auto;
+  }
+
+  #nav-icons {
+    display: flex;
+  }
+
+  ul.navigation {
+    display: none;
+  }
+
+  .hidden {
+    display: none;
+  }
+  main{
+    background-color: beige;
+  }
+  .container img {
+    margin-bottom: 30px;
+  }
+
+  #blue-button button {
+    background-color: #4285F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  #blue-button img {
+    width: 40px;
+    height: 40px;
+    background-color: #F3EAE2;
+  }
+
+  #blue-button span {
+    flex-grow: 1;
+    margin-left: 0;
+  }
+  .white-background{
+    background-color: #fff;}
+ .white-background h3{
+      color: black;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .white-background p{
+      text-align: center;
+    }
+    
+}
+
+/* Main Content Sections */
+.purple-background{
+  background-color: #540B51;
+  text-align: center;
+}
+#small-screen{
+  color: white;
+}
+main section {
+  flex-direction: column;
+  padding: 20px;
+  
+}
+
+
+main div button {
+  width: 100%;
+  margin: 10px 0;
+  height: 60px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+main section p {
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+/* List Section */
+main section ul {
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+}
+
+.white-background li p span {
+  color: #540B51;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.white-background li p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.main-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.main-logo img {
+  max-width: 100%;
+  width: 33.33%;
+  height: 80px;
+  width: 100px;
+}
+
+
+
+/* Footer Styles */
+footer {
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* "Teams large and small rely on Slack" Section */
+/* main section h3 {
+  text-align: center;
+  font-size: 24px;
+} */
+
+/* main section p {
+  text-align: center;
+} */
+
+/* Buttons in the "Teams large and small rely on Slack" Section */
+main section button {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.purple-button {
+  background-color: #540B51;
+  color: #fff;
+  border: solid 2px;
+  height: 60px;
+  font-weight: bold;
+}
+
+.white-button {
+  border: 2px solid #540B51;
+  background-color: #fff;
+  height: 60px;
+  color: #540B51;
+  font-weight: bold;
+}
+
+.footer-list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.footer-list li {
+  list-style: none;
+}
+
+#footer-ul li {
+  list-style: none;
+  font-weight: bold;
+}
+#blue-text{
+  color: #4285F4;
+}
+
+#footer-logo {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#footer-logo li {
+  list-style: none;
+}
+
+
+.links {
+  color: #4285F4;
+  text-decoration: none;
+}
